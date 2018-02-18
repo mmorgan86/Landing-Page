@@ -21,6 +21,7 @@ nav {
 }
  
 #title {
+    display: block;
     vertical-align: center;
     margin: 0 auto;
     padding-top: 1vh;
@@ -34,6 +35,8 @@ nav {
     list-style: none;
     font-family: 'Black Ops One', Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     text-shadow: 2px 2px 2px black;
+    font-size: 20px;
+    border: 1px solid gray;
 }
 
 .navbar-default .navbar-nav > li > a:focus, .navbar-default .navbar-nav > li > a:hover {
