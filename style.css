@@ -1,3 +1,6 @@
+/* Need to do */
+/*fix why navbar does not work when in mobile toggle view */
+
 body {
     font-family: 'Alef', sans-serif;
 }
@@ -22,9 +25,8 @@ nav {
  
 #title {
     display: block;
-    vertical-align: center;
     margin: 0 auto;
-    padding-top: 1vh;
+    padding-top: 2vh;
     font-family: 'Black Ops One', Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     text-shadow: 2px 2px 2px black;
 }
@@ -35,8 +37,10 @@ nav {
     list-style: none;
     font-family: 'Black Ops One', Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     text-shadow: 2px 2px 2px black;
-    font-size: 20px;
+    font-size: 18px;
     border: 1px solid gray;
+    margin: 0 auto;
+    height: 49px;
 }
 
 .navbar-default .navbar-nav > li > a:focus, .navbar-default .navbar-nav > li > a:hover {
@@ -217,6 +221,15 @@ footer > p {
 @media (max-width: 700px) {
     nav {
         font-size: 18px;
+    }
+
+    .navbar-default .navbar-nav > li > a:focus, .navbar-default .navbar-nav > li > a {
+        margin: 0 65%;
+    }
+
+    .nav > li > a {
+        width: 20vw;
+        background-color: black;
     }
     /* services mobile view */
     .leftside, .rightside {
