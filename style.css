@@ -121,7 +121,8 @@ section {
 /* video style */
 #video-section {
     display: block;
-    width: 520px;
+    width: 55vw;
+    min-width: 200px;
     height: auto;
     margin: 0 auto;
     padding: 0;
@@ -133,12 +134,17 @@ section {
 }
 
 video {
+    width: 51vw;
     border: 1px solid black;
 }
 
 /* Coupons Section */
 #coupons {
     padding: 0;
+}
+
+video h4 {
+    text-align: center !important;
 }
 
 .coupons-header {
@@ -282,11 +288,22 @@ footer > p {
         position: relative;
         top: 0;
     }
+    /* mobile video style */
+    #video-section {
+        /* display: flex;
+        flex-direction: column; */
+    }
 
     #video {
-        width: 300px;
+        width: 100%;
+        align-items: center;
+        
     }
-    
+
+    #video-title {
+        font-size: 14px;
+    }
+   
     /* coupons mobil view */
     #coupons {
         margin: 0 auto;
