@@ -70,6 +70,16 @@ section:nth-child(odd) {
     background-color: rgba(212, 211, 211, 0.2);
 }
 
+/* button style */
+button {
+    color: black !important;
+    background-color: white;
+}
+
+button:hover {
+    background-color: yellow;
+    
+}
 /* /core styles */
 
 /* header style */
@@ -183,6 +193,22 @@ section {
     left: -20px;
 }
 
+/* subscribe by email section */
+#subscribe {
+    text-align: center;
+    margin: 0;
+    padding: 2vw;
+}
+
+#subscribe button {
+    color: white !important;
+    background-color:rgb(226, 0, 0);
+}
+
+#subscribe button:hover {
+    color: rgb(226,0,0);
+    background-color: rgb(197, 197, 197);
+}
 
 /* footer section */
 footer {
