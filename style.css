@@ -136,6 +136,7 @@ section {
 video {
     width: 51vw;
     border: 1px solid black;
+    min-width: 200px;
 }
 
 /* Coupons Section */
