@@ -282,6 +282,11 @@ footer > p {
     .nav > li > a {
         background-color: black;
     }
+
+    /* Title change in mobile view */
+    #title {
+      letter-spacing: normal;
+    }
     /* services mobile view */
     .leftside, .rightside {
         display: block;
